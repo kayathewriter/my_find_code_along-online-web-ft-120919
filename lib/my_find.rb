@@ -13,4 +13,4 @@ def my_find(collection)
   end
 end
 
-collection = 
+collection = (1..100)
