@@ -16,7 +16,7 @@ describe "#my_find" do
     expect(counter).to eq(0)
   end
 
-  it "yields the correct element to the block" do
+#  it "yields the correct element to the block" do
     yielded = []
     my_find(collection) do |number|
       yielded.push number
